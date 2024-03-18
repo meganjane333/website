@@ -263,21 +263,33 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Our current meeting schedule Wednesdays at 4pm UK time via Teams, and occasionally in person. Join our Slack channel and introduce yourself for more information and to participate (please join with your full real name, e.g. “Florence Nightingale”."
+    "text": "Our current meeting schedule Wednesdays at 4pm UK time via Teams, and occasionally in person. Join our Slack channel and introduce yourself for more information and to participate (please join with your full real name, e.g. “Florence Nightingale”.",
+    "crumbs": [
+      "Information",
+      "Schedule"
+    ]
   },
   {
     "objectID": "schedule.html#the-future",
     "href": "schedule.html#the-future",
     "title": "Schedule",
     "section": "The Future",
-    "text": "The Future\n2024-03-20 (Meeting #143) R Stats Bootcamp Session 8 (Ed+Megan)\n2024-03-27 (Meeting #144) R Stats Bootcamp Session 9 (Ed+Megan)\n2024-04-03 (Meeting #145) R Stats Bootcamp Session 10 (Ed+Megan)\n2024-04-10 (Meeting #146) R Stats Bootcamp Session 11 (Ed+Megan)\n2024-04-17 (Meeting #147) R Stats Bootcamp Session 12 (Ed+Megan)"
+    "text": "The Future\n2024-03-27 (Meeting #144) R Stats Bootcamp Session 9 (Ed+Megan)\n2024-04-03 (Meeting #145) R Stats Bootcamp Session 10 (Ed+Megan)\n2024-04-10 (Meeting #146) R Stats Bootcamp Session 11 (Ed+Megan)\n2024-04-17 (Meeting #147) R Stats Bootcamp Session 12 (Ed+Megan)",
+    "crumbs": [
+      "Information",
+      "Schedule"
+    ]
   },
   {
     "objectID": "schedule.html#meeting-topics",
     "href": "schedule.html#meeting-topics",
     "title": "Schedule",
     "section": "Meeting topics",
-    "text": "Meeting topics\n  2024-03-13 (Meeting #142) R Stats Bootcamp Session 7 (Ed) ::: slides ::: Bootcamp 07 link\n  2024-03-06 (Meeting #141) R Stats Bootcamp Session 6 (Ed) ::: slides ::: Bootcamp 06 link\n  2024-02-14 (Meeting #140) R Stats Bootcamp Session 5 (Ed) ::: slides ::: Bootcamp 05 link\n  2024-02-07 (Meeting #139) R Stats Bootcamp Session 4 (Ed) ::: slides ::: Bootcamp 04 link\n  2024-01-31 (Meeting #138) R Stats Bootcamp Session 3 (Ed) ::: slides ::: Bootcamp 03 link\n  2024-01-24 (Meeting #137) R Stats Bootcamp Session 2 (Ed) ::: slides ::: Bootcamp 02 link\n  2024-01-17 (Meeting #136) Resume HARUG! for spring term: R Stats Bootcamp (Ed) ::: slides ::: Bootcamp 01 link\n  2023-12-20 (Meeting #135) Holidays data viz activity (Ed H) ::: slides ::: files\n  2023-12-13 (Meeting #134) Beginning R and stats: what training do you want and need? (group discussion led by Ed H) ::: slides ::: R Stats Bootcamp ::: Harper MSc teaching schedule\n  2023-12-06 (Meeting #133) Example experimental design and power (Ronald M) ::: slide files ::: Ed pwr\n  2023-11-29 (Meeting #132) Train a custom Yolo model in Python (Ed H) ::: slide files ::: ed owl pic ::: slide files ::: Python notebook html ::: link to Python notebook repo\n  2023-11-22 (Meeting #131) Basics of effect size and power for experimental design in R (Ed H + Charlotte C) ::: Power ppt ::: Cow experiment ppt ::: f^2 Effect size reading Selya 2012\n  2023-11-15 (meeting #130) Cattle welfare data science project (Tom C) ::: stressed cows\n  2023-08-02 (meeting #129) Beginning Python for applied Scientists (and other interesting people) (Ed H) ::: slides ::: data ::: colab notebook ::: Python Resources\n  2023-07-26 (meeting #128) Bioinformatics with and without Galaxy (Sotiria B) ::: slides\n  2023-07-19 (meeting #127) chatGPT + code interpreter for data analysis (Joe R)\n  2023-07-12 (meeting #126) Docker web app demo (Matt B) ::: instructions ::: slides\n  2023-07-05 (meeting #125) Simulation as a tool for experimental design (Ed H) ::: R proj files zip ::: slides\n  2023-06-14 (meeting #124) Docker-related session? (Matt B)\n  2023-06-07 (meeting #123) You’ve heard of ChatGPT, but have you heard of birdNet…? (Sophie C)\n  2023-05-31 (meeting #122) Progress update on DeepLabCut (George W)\n  2023-05-24 (meeting #121) Using ChatGPT to support data analysis - some experimental results (Ed H) chatGPT experiments slides ::: chatGPT prompts ::: milkers project zip\n  2023-05-17 (meeting #120) Large Language Models, ChatGPT, OpenGPT and LangChain: An overview and what you can do right now (Ed H) chatGPT slides ::: chatGPT prompts\n  2023-05-03 (meeting #119) My_Tidy_Data %<% Web scraping data with R and tools like readLines() and grep() (Ed H) Manual scrape project files ::: “Autoscrape” example script\n  2023-04-26 (meeting #118) Part 3: Animal pose and behaviour detection in Deeplabcut (George W)::: DeepLabCut website ::: George W ppt\n  2023-04-19 (meeting #117) Plant Spatial Statistics Ch 03 Part 2 (Przemek D) Chapter 03 ::: Plant ALL DATA\n  2023-04-12 (meeting #116) Part 2: Animal pose and behaviour detection in Deeplabcut (George W)::: DeepLabCut website ::: George W ppt\n  2023-04-05 (meeting #115) Part 1: Animal pose and behaviour detection in Deeplabcut (George W) ::: DeepLabCut website ::: George W ppt\n  2023-03-15 (meeting #114) Plant Spatial Statistics Ch 03 Part 1 (Przemek D) Chapter 03 ::: Plant ALL DATA\n  2023-03-08 (meeting #113) Bootcamp launch S02E02 (George W.) ::: Bootcamp 2\n 2023-02-15 (meeting #112) Natural Language Processing session #02 (Ed) ::: NLP2 slides ::: NLP2 notbook: open from github https://github.com/harper-data-science/aws-nlp :: MLA-NLP-Lecture1.2-BOW.ipynb\n 2023-02-01 (meeting #111) Spatial statistics with R Read Chapter 02 and exercises in Plant 2019 Spatial Data Analysis 2ed (Ed) ::: Plant ch02 ::: html slides ch 02 ::: Plant ALL DATA ::: Plant ALL CODE ::: Ed ch02 code\n  2023-01-25 (meeting #110) Bootcamp launch S02E01 (Ed + HARUG!) ::: Bootcamp1 ::: slides overview ::: slides Setup 01\n  2023-01-18 (meeting #109) Natural Language Processing session #01 (Ed) ::: NLP1 slides ::: NLP1 notbook\n  2023-01-11 (meeting #108) Spatial statistics with R Read Chapters 01 in Plant 2019 Spatial Data Analysis 2ed (Ed) ::: Plant ch01 ::: html slides ::: Plant ALL DATA ::: Plant ALL CODE ::: Ed ch01 code\n  2022-12-07 (meeting #107) Basic of Shiny + R Markdown + {flexdashboard} for interactive data (Ed) ::: pptx\n 2022-11-23 (meeting #106) Future topics survey and cheatsheet activity (Ed) ::: pptx ::: cheatsheet 1 ::: cheatsheet 2 ::: cheatsheet 3 ::: cheatsheet 4\n  2022-11-16 (meeting #105) Earwigs, wooly apple aphids and binomial regression. Oh, my! (Hayden) ::: talk pptx ::: R script ::: Raw data xlsx ::: Count data xlsx\n  2022-11-02 (meeting #104) Tidy data and stats for a mysterious experiment (Eric S)\n  2022-10-26 (meeting #103) Intro to the {mlr3} package in R (Ed) ::: pptx ::: R script ::: {mlr3} book site\n  2022-10-19 (meeting #102) Natural Language Processing (NLP) What is it good for? (Magda)\n  2022-10-12 (meeting #101) Analysis of spatial data (Joe C)\n  2022-10-05 (meeting #100) Quarto: R Markdown’s “new clothes”? Our \\(10^2\\) meeting! (Ed) ::: Quarto Github webpage tutorial\n  2022-09-28 (meeting #99) Computer vision project / Python (Matt) ::: pptx ::: weevilwatch github repo\n 2022-09-21 (meeting #98) New Quarto website (Ed) ::: Quarto Hello, World\n\n\nThis group is supported by the research and teaching community at Harper Adams University and by students and alumnists of the MSc in Data Science for Global Agriculture, Food, and Environment, and is led by Ed Harris."
+    "text": "Meeting topics\n  2024-03-20 (Meeting #143) R Stats Bootcamp Session 8 (Ed+Megan) ::: slides ::: Bootcamp 08 link\n  2024-03-13 (Meeting #142) R Stats Bootcamp Session 7 (Ed) ::: slides ::: Bootcamp 07 link\n  2024-03-06 (Meeting #141) R Stats Bootcamp Session 6 (Ed) ::: slides ::: Bootcamp 06 link\n  2024-02-14 (Meeting #140) R Stats Bootcamp Session 5 (Ed) ::: slides ::: Bootcamp 05 link\n  2024-02-07 (Meeting #139) R Stats Bootcamp Session 4 (Ed) ::: slides ::: Bootcamp 04 link\n  2024-01-31 (Meeting #138) R Stats Bootcamp Session 3 (Ed) ::: slides ::: Bootcamp 03 link\n  2024-01-24 (Meeting #137) R Stats Bootcamp Session 2 (Ed) ::: slides ::: Bootcamp 02 link\n  2024-01-17 (Meeting #136) Resume HARUG! for spring term: R Stats Bootcamp (Ed) ::: slides ::: Bootcamp 01 link\n  2023-12-20 (Meeting #135) Holidays data viz activity (Ed H) ::: slides ::: files\n  2023-12-13 (Meeting #134) Beginning R and stats: what training do you want and need? (group discussion led by Ed H) ::: slides ::: R Stats Bootcamp ::: Harper MSc teaching schedule\n  2023-12-06 (Meeting #133) Example experimental design and power (Ronald M) ::: slide files ::: Ed pwr\n  2023-11-29 (Meeting #132) Train a custom Yolo model in Python (Ed H) ::: slide files ::: ed owl pic ::: slide files ::: Python notebook html ::: link to Python notebook repo\n  2023-11-22 (Meeting #131) Basics of effect size and power for experimental design in R (Ed H + Charlotte C) ::: Power ppt ::: Cow experiment ppt ::: f^2 Effect size reading Selya 2012\n  2023-11-15 (meeting #130) Cattle welfare data science project (Tom C) ::: stressed cows\n  2023-08-02 (meeting #129) Beginning Python for applied Scientists (and other interesting people) (Ed H) ::: slides ::: data ::: colab notebook ::: Python Resources\n  2023-07-26 (meeting #128) Bioinformatics with and without Galaxy (Sotiria B) ::: slides\n  2023-07-19 (meeting #127) chatGPT + code interpreter for data analysis (Joe R)\n  2023-07-12 (meeting #126) Docker web app demo (Matt B) ::: instructions ::: slides\n  2023-07-05 (meeting #125) Simulation as a tool for experimental design (Ed H) ::: R proj files zip ::: slides\n  2023-06-14 (meeting #124) Docker-related session? (Matt B)\n  2023-06-07 (meeting #123) You’ve heard of ChatGPT, but have you heard of birdNet…? (Sophie C)\n  2023-05-31 (meeting #122) Progress update on DeepLabCut (George W)\n  2023-05-24 (meeting #121) Using ChatGPT to support data analysis - some experimental results (Ed H) chatGPT experiments slides ::: chatGPT prompts ::: milkers project zip\n  2023-05-17 (meeting #120) Large Language Models, ChatGPT, OpenGPT and LangChain: An overview and what you can do right now (Ed H) chatGPT slides ::: chatGPT prompts\n  2023-05-03 (meeting #119) My_Tidy_Data %&lt;% Web scraping data with R and tools like readLines() and grep() (Ed H) Manual scrape project files ::: “Autoscrape” example script\n  2023-04-26 (meeting #118) Part 3: Animal pose and behaviour detection in Deeplabcut (George W)::: DeepLabCut website ::: George W ppt\n  2023-04-19 (meeting #117) Plant Spatial Statistics Ch 03 Part 2 (Przemek D) Chapter 03 ::: Plant ALL DATA\n  2023-04-12 (meeting #116) Part 2: Animal pose and behaviour detection in Deeplabcut (George W)::: DeepLabCut website ::: George W ppt\n  2023-04-05 (meeting #115) Part 1: Animal pose and behaviour detection in Deeplabcut (George W) ::: DeepLabCut website ::: George W ppt\n  2023-03-15 (meeting #114) Plant Spatial Statistics Ch 03 Part 1 (Przemek D) Chapter 03 ::: Plant ALL DATA\n  2023-03-08 (meeting #113) Bootcamp launch S02E02 (George W.) ::: Bootcamp 2\n 2023-02-15 (meeting #112) Natural Language Processing session #02 (Ed) ::: NLP2 slides ::: NLP2 notbook: open from github https://github.com/harper-data-science/aws-nlp :: MLA-NLP-Lecture1.2-BOW.ipynb\n 2023-02-01 (meeting #111) Spatial statistics with R Read Chapter 02 and exercises in Plant 2019 Spatial Data Analysis 2ed (Ed) ::: Plant ch02 ::: html slides ch 02 ::: Plant ALL DATA ::: Plant ALL CODE ::: Ed ch02 code\n  2023-01-25 (meeting #110) Bootcamp launch S02E01 (Ed + HARUG!) ::: Bootcamp1 ::: slides overview ::: slides Setup 01\n  2023-01-18 (meeting #109) Natural Language Processing session #01 (Ed) ::: NLP1 slides ::: NLP1 notbook\n  2023-01-11 (meeting #108) Spatial statistics with R Read Chapters 01 in Plant 2019 Spatial Data Analysis 2ed (Ed) ::: Plant ch01 ::: html slides ::: Plant ALL DATA ::: Plant ALL CODE ::: Ed ch01 code\n  2022-12-07 (meeting #107) Basic of Shiny + R Markdown + {flexdashboard} for interactive data (Ed) ::: pptx\n 2022-11-23 (meeting #106) Future topics survey and cheatsheet activity (Ed) ::: pptx ::: cheatsheet 1 ::: cheatsheet 2 ::: cheatsheet 3 ::: cheatsheet 4\n  2022-11-16 (meeting #105) Earwigs, wooly apple aphids and binomial regression. Oh, my! (Hayden) ::: talk pptx ::: R script ::: Raw data xlsx ::: Count data xlsx\n  2022-11-02 (meeting #104) Tidy data and stats for a mysterious experiment (Eric S)\n  2022-10-26 (meeting #103) Intro to the {mlr3} package in R (Ed) ::: pptx ::: R script ::: {mlr3} book site\n  2022-10-19 (meeting #102) Natural Language Processing (NLP) What is it good for? (Magda)\n  2022-10-12 (meeting #101) Analysis of spatial data (Joe C)\n  2022-10-05 (meeting #100) Quarto: R Markdown’s “new clothes”? Our \\(10^2\\) meeting! (Ed) ::: Quarto Github webpage tutorial\n  2022-09-28 (meeting #99) Computer vision project / Python (Matt) ::: pptx ::: weevilwatch github repo\n 2022-09-21 (meeting #98) New Quarto website (Ed) ::: Quarto Hello, World\n\n\nThis group is supported by the research and teaching community at Harper Adams University and by students and alumnists of the MSc in Data Science for Global Agriculture, Food, and Environment, and is led by Ed Harris.",
+    "crumbs": [
+      "Information",
+      "Schedule"
+    ]
   },
   {
     "objectID": "pages/2023-07-05-pwr-sim/pwr_report.html",
@@ -731,6 +743,111 @@
     "objectID": "pages/2024-03-13-RSB07/RSB07.html#practice-exercises",
     "href": "pages/2024-03-13-RSB07/RSB07.html#practice-exercises",
     "title": "R Stats Bootcamp 07",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#r-stats-bootcamp",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#r-stats-bootcamp",
+    "title": "R Stats Bootcamp 08",
+    "section": "R Stats Bootcamp",
+    "text": "R Stats Bootcamp\n\n\n\n\nR Stats Bootcamp 08\n\nDistributions\nCan you guess the weight of this bull? What about you and 99 friends?”."
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#objectives",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#objectives",
+    "title": "R Stats Bootcamp 08",
+    "section": "Objectives",
+    "text": "Objectives\n\nUse of the histogram\nGaussian: that ain’t normal\nPoisson\nBinomial\nDiagnosing the distribution"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#use-of-the-histogram",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#use-of-the-histogram",
+    "title": "R Stats Bootcamp 08",
+    "section": "Use of the histogram",
+    "text": "Use of the histogram\n\nplots a numeric variable on the x axis\nfrequency of observations on the y axis"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#typical-histogram-for-continuous-variable",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#typical-histogram-for-continuous-variable",
+    "title": "R Stats Bootcamp 08",
+    "section": "Typical histogram for continuous variable",
+    "text": "Typical histogram for continuous variable\nhist(x = cats, xlab = “Cat weight (Kg)”)"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#sampling-and-populations",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#sampling-and-populations",
+    "title": "R Stats Bootcamp 08",
+    "section": "Sampling and Populations",
+    "text": "Sampling and Populations\nRemember the concept of population versus sample?\ncoding"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#gaussian-that-aint-necessarily-normal",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#gaussian-that-aint-necessarily-normal",
+    "title": "R Stats Bootcamp 08",
+    "section": "Gaussian: That ain’t necessarily normal!",
+    "text": "Gaussian: That ain’t necessarily normal!\n\nclassic “Bell curve” shaped distribution\ncontinuous numeric variables that “measure” things (e.g., human height)"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#the-gaussian-assumption-important-topic",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#the-gaussian-assumption-important-topic",
+    "title": "R Stats Bootcamp 08",
+    "section": "The Gaussian assumption (important topic)",
+    "text": "The Gaussian assumption (important topic)\n\nregression and ANOVA\nGaussian is described by 2 quantities: the mean and the variance"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#gaussian-histograms",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#gaussian-histograms",
+    "title": "R Stats Bootcamp 08",
+    "section": "Gaussian histograms",
+    "text": "Gaussian histograms\nTo R!\n\n\n\ncoding"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#quartile-quartile-q-q-plots",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#quartile-quartile-q-q-plots",
+    "title": "R Stats Bootcamp 08",
+    "section": "Quartile-Quartile (Q-Q) plots",
+    "text": "Quartile-Quartile (Q-Q) plots\nEDIT"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#poisson-distribution",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#poisson-distribution",
+    "title": "R Stats Bootcamp 08",
+    "section": "Poisson distribution",
+    "text": "Poisson distribution\n\nCount data of discrete events, objects, etc.\nIntegers, for example the number of beetles caught each day in a pitfall trap:\n\nrpois(20, 4)\n[1] 3 3 3 5 1 5 5 2 3 4 5 9 5 4 6 2 3 6 5 3\n\nPoisson data are typically skewed to the right\nDescribed by a single parameter, (lambda), which describes the mean and the variance"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#off-to-r",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#off-to-r",
+    "title": "R Stats Bootcamp 08",
+    "section": "Off to R!",
+    "text": "Off to R!\n\nExample Poisson data\nDensity plot for different Poisson lambda values"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#binomial-distribution",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#binomial-distribution",
+    "title": "R Stats Bootcamp 08",
+    "section": "Binomial distribution",
+    "text": "Binomial distribution\n\nexactly 2 outcomes: 0 and 1, Yes and No, True and False, etc.\nData are the count of “successes”” in (binary) outcomes of a series of independent events\nData coding can be variable"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#lets-do-some-coding",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#lets-do-some-coding",
+    "title": "R Stats Bootcamp 08",
+    "section": "Let’s do some coding!",
+    "text": "Let’s do some coding!\n\nEample: Nest boxes\nExample: Flipping a coin\nDensity plot for different Binomial parameters"
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#diagnosing-the-distribution",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#diagnosing-the-distribution",
+    "title": "R Stats Bootcamp 08",
+    "section": "Diagnosing the distribution",
+    "text": "Diagnosing the distribution\nGood practice - have a set of steps to adhere to when diagnosing a distribution.\n\nDevelop an expectation of the distribution, based on the type of data\nGraph the data i.e., histograms and q-q plots\nCompare q-q plots with different distributions for comparison if in doubt\n\nIf the assumption of a particular distribution is important (like Gaussian residuals), try transformation and compare, e.g., log(your-data), cuberoot(your-data), or others, to the Gaussian q-q expectation."
+  },
+  {
+    "objectID": "pages/2024-03-13-RSB08/RSB08.html#practice-exercises",
+    "href": "pages/2024-03-13-RSB08/RSB08.html#practice-exercises",
+    "title": "R Stats Bootcamp 08",
     "section": "Practice Exercises",
     "text": "Practice Exercises"
   }

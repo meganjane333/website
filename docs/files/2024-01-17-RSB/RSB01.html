@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ed Harris">
+<meta name="dcterms.date" content="2023-01-17">
 
-<title>Harper Data Science - 2022-10-05</title>
+<title>Harper Data Science - R Stats Bootcamp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../img/hds-pad.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/hds-pad.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,37 +72,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -112,7 +85,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2022-10-05</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">R Stats Bootcamp</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,8 +99,8 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/hds-pad.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../img/hds-pad.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -151,13 +124,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
+  <a href="../../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
@@ -173,39 +146,49 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quarto-r-markdowns-new-clothes" id="toc-quarto-r-markdowns-new-clothes" class="nav-link active" data-scroll-target="#quarto-r-markdowns-new-clothes">Quarto: R Markdown’s “new clothes”?</a></li>
-  <li><a href="#github-setup" id="toc-github-setup" class="nav-link" data-scroll-target="#github-setup">1 Github setup</a>
-  <ul class="collapse">
-  <li><a href="#create-github-organization" id="toc-create-github-organization" class="nav-link" data-scroll-target="#create-github-organization">1.1 Create github organization</a></li>
-  <li><a href="#create-repository" id="toc-create-repository" class="nav-link" data-scroll-target="#create-repository">1.2 Create repository</a></li>
-  <li><a href="#local-repo" id="toc-local-repo" class="nav-link" data-scroll-target="#local-repo">1.3 Local repo</a></li>
-  </ul></li>
-  <li><a href="#quarto-website" id="toc-quarto-website" class="nav-link" data-scroll-target="#quarto-website">2 Quarto website</a>
-  <ul class="collapse">
-  <li><a href="#new-project" id="toc-new-project" class="nav-link" data-scroll-target="#new-project">2.1 New project</a></li>
-  <li><a href="#create-quarto-website-template" id="toc-create-quarto-website-template" class="nav-link" data-scroll-target="#create-quarto-website-template">2.2 Create Quarto website template</a></li>
-  </ul></li>
-  <li><a href="#basic-quarto-editing" id="toc-basic-quarto-editing" class="nav-link" data-scroll-target="#basic-quarto-editing">3 Basic quarto editing</a>
-  <ul class="collapse">
-  <li><a href="#quarto.yaml" id="toc-quarto.yaml" class="nav-link" data-scroll-target="#quarto.yaml">3.1 <code>_quarto.yaml</code></a></li>
-  </ul></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#r-stats-bootcamp-01" id="toc-r-stats-bootcamp-01" class="nav-link" data-scroll-target="#r-stats-bootcamp-01">R Stats Bootcamp 01</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#how-the-r-stats-bootcamp-works" id="toc-how-the-r-stats-bootcamp-works" class="nav-link" data-scroll-target="#how-the-r-stats-bootcamp-works">How the R Stats Bootcamp works</a></li>
+  <li><a href="#r-motivation-why-r" id="toc-r-motivation-why-r" class="nav-link" data-scroll-target="#r-motivation-why-r">R motivation: why R?</a></li>
+  <li><a href="#option-for-using-r" id="toc-option-for-using-r" class="nav-link" data-scroll-target="#option-for-using-r">Option for using R</a></li>
+  <li><a href="#rstudio-components-and-setup" id="toc-rstudio-components-and-setup" class="nav-link" data-scroll-target="#rstudio-components-and-setup">RStudio components and setup</a></li>
+  <li><a href="#workflow-for-r-scripts" id="toc-workflow-for-r-scripts" class="nav-link" data-scroll-target="#workflow-for-r-scripts">Workflow for R scripts</a></li>
+  <li><a href="#workflow-for-r-scripts-1" id="toc-workflow-for-r-scripts-1" class="nav-link" data-scroll-target="#workflow-for-r-scripts-1">Workflow for R scripts</a></li>
+  <li><a href="#r-script-organisation" id="toc-r-script-organisation" class="nav-link" data-scroll-target="#r-script-organisation">R script organisation</a></li>
+  <li><a href="#r-script-organisation-1" id="toc-r-script-organisation-1" class="nav-link" data-scroll-target="#r-script-organisation-1">R script organisation</a></li>
+  <li><a href="#r-script-organisation-2" id="toc-r-script-organisation-2" class="nav-link" data-scroll-target="#r-script-organisation-2">R script organisation</a></li>
+  <li><a href="#r-script-comments" id="toc-r-script-comments" class="nav-link" data-scroll-target="#r-script-comments">R script comments</a></li>
+  <li><a href="#r-script-submitting-commands" id="toc-r-script-submitting-commands" class="nav-link" data-scroll-target="#r-script-submitting-commands">R script “submitting” commands</a></li>
+  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="RSB01.pptx"><i class="bi bi-file-slides"></i>Powerpoint</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">2022-10-05</h1>
+<h1 class="title">R Stats Bootcamp</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ed Harris </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-01-17</p>
+    </div>
+  </div>
   
     
   </div>
@@ -215,145 +198,134 @@ window.Quarto = {
 </header>
 
 
-<p><img src="img/harug-hex.png" class="img-fluid" width="125"></p>
-<section id="quarto-r-markdowns-new-clothes" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-r-markdowns-new-clothes">Quarto: R Markdown’s “new clothes”?</h2>
-<p><strong>Our <span class="math inline">\(10^2\)</span> meeting! (Ed)</strong></p>
-<p>The goal here is to make a <strong>Quarto website</strong> using <strong>RStudio</strong>, then deploy it to <strong>Github pages</strong> in an <strong>organization repository</strong></p>
-<p>Quarto is a markdown language system used to generate websites and other documents (like pdf, word, html talk slides) that automatically generates all of the formatting framework for you. I.e. you can make a modern, sophisticated website without having to learn html, javascipt, css, etc. There are other tools that can let you do this, but here it is open source, reproducible, integrated into RStudio, and unreliant on third party solutions.</p>
-<p><strong>Preparation</strong></p>
+<section id="section" class="level2" data-background-image="pics/Bootcamp_2024.png">
+<h2 data-background-image="pics/Bootcamp_2024.png" class="anchored" data-anchor-id="section"></h2>
+</section>
+<section id="r-stats-bootcamp-01" class="level2 center">
+<h2 class="center anchored" data-anchor-id="r-stats-bootcamp-01">R Stats Bootcamp 01</h2>
+<p>“Setup &amp; Intro”</p>
+<p><a href="https://rstats-bootcamp.github.io/website">https://rstats-bootcamp.github.io/website</a></p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
 <ul>
-<li><p><a href="https://www.rstudio.com/products/rstudio/download/">Latest version of RStudio installed</a></p></li>
-<li><p><a href="https://quarto.org/docs/get-started/">Latest version of Quarto for RStudio installed</a></p></li>
-<li><p><a href="https://github.com/">Have a free Github account</a></p></li>
-<li><p><a href="https://desktop.github.com/">Latest version of Github Desktop installed</a></p></li>
+<li><p>How the R Stats Bootcamp works</p></li>
+<li><p>R motivation</p></li>
+<li><p>Install R and RStudio or set up RStudio Cloud</p></li>
+<li><p>RStudio components and setup</p></li>
+<li><p>Workflow for scripts in R</p></li>
+<li><p>Practice exercises</p></li>
 </ul>
 </section>
-<section id="github-setup" class="level2">
-<h2 class="anchored" data-anchor-id="github-setup">1 Github setup</h2>
-<p>You can choose to use your personal account or make a free Github organization owned by your personal account.</p>
-<p>The advantage of making a github organization here is that it can have a github pages repo, without using the one on your personal account. You can skip this step if you prefer to make this tutorial site using your personal github account github page.</p>
-<p><br></p>
-<section id="create-github-organization" class="level3">
-<h3 class="anchored" data-anchor-id="create-github-organization">1.1 Create github organization</h3>
-<p>Create your organization (I recommend) using the account details matching you main github account. You can add the remaining details as you wish for your organization.</p>
-<p><br></p>
-<p><img src="img/20221005-gitorg.png" class="img-fluid" width="200"></p>
-<p><br></p>
+<section id="how-the-r-stats-bootcamp-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-r-stats-bootcamp-works">How the R Stats Bootcamp works</h2>
 <ul>
-<li><p>Choose <strong>Create a free organization</strong></p></li>
-<li><p>Org. <strong>name</strong>, (main account) <strong>email</strong></p></li>
+<li><p>Practical, open instructional materials for learning R</p></li>
+<li><p>Simple statistics in R</p></li>
+<li><p>Reproducible research and collaboration tools</p></li>
+<li><p>Self-guided learning and self-assessment</p></li>
+<li><p>Friendly community</p></li>
 </ul>
-<p><br></p>
-<p><img src="img/20221005-org1.png" class="img-fluid" width="300"></p>
-<p><br></p>
 </section>
-<section id="create-repository" class="level3">
-<h3 class="anchored" data-anchor-id="create-repository">1.2 Create repository</h3>
-<p><br></p>
-<p>Create a new repository:</p>
+<section id="r-motivation-why-r" class="level2">
+<h2 class="anchored" data-anchor-id="r-motivation-why-r">R motivation: why R?</h2>
 <ul>
-<li><p>Choose <strong>repo name</strong> (e.g.&nbsp;‘website’)</p></li>
-<li><p>Make <strong>public</strong></p></li>
-<li><p>Click <strong>Create Repository</strong></p></li>
+<li><p>R is objectively the best statistical software available</p></li>
+<li><p>R is designed for people with no programming experience to perform sophisticated statistical analysis with minimum effort</p></li>
+<li><p>In wide use at universities, companies: job demand</p></li>
+<li><p>Very large community of users</p></li>
+<li><p>Free and open source</p></li>
+<li><p>Works well on all computers and OSes, old and new</p></li>
+<li><p>R is easy to learn (as you will see)</p></li>
 </ul>
-<hr>
-<p><img src="img/20221005-repo.png" class="img-fluid" width="500"></p>
-<p><br></p>
 </section>
-<section id="local-repo" class="level3">
-<h3 class="anchored" data-anchor-id="local-repo">1.3 Local repo</h3>
-<p><br></p>
+<section id="option-for-using-r" class="level2">
+<h2 class="anchored" data-anchor-id="option-for-using-r">Option for using R</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Install R and R Studio locally</p>
 <ul>
-<li><strong>set up in Github Desktop</strong> (or other means you prefer)</li>
+<li><p><a href="https://www.google.com/search?q=how+do+I+install+R+for+windows">Help for Windows</a></p></li>
+<li><p><a href="https://www.google.com/search?q=how+do+I+install+R+for+mac">Help for Macs</a></p></li>
 </ul>
-<p><img src="img/20221005-desktop.png" class="img-fluid" width="300"></p>
-<p><br></p>
+</div><div class="column" style="width:50%;">
+<p>Other options</p>
 <ul>
-<li>From Github Desktop, <strong>make a local path</strong> for the repo</li>
+<li><a href="https://rstudio.cloud/">Posit Cloud</a></li>
 </ul>
-<p><img src="img/20221005-desktop2.png" class="img-fluid" width="300"></p>
-<hr>
-<p><br></p>
+<p>(limited free account)</p>
 <ul>
-<li>Examine your <strong>local directory</strong></li>
+<li><a href="https://towardsdatascience.com/how-to-use-r-in-google-colab-b6e02d736497">Google colab</a></li>
 </ul>
-<p><img src="img/20221005-desktop3.png" class="img-fluid" width="300"></p>
-<p><br></p>
+</div>
+</div>
 </section>
+<section id="rstudio-components-and-setup" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio-components-and-setup">RStudio components and setup</h2>
+<p><img src="pics/0.1-rstudio.png" class="img-fluid"></p>
 </section>
-<section id="quarto-website" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-website">2 Quarto website</h2>
-<p>Here we will use RStudio to set up a Quarto website and adjust a few settings</p>
-<section id="new-project" class="level3">
-<h3 class="anchored" data-anchor-id="new-project">2.1 New project</h3>
-<p>In RStudio:</p>
+<section id="workflow-for-r-scripts" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-for-r-scripts">Workflow for R scripts</h2>
 <ul>
-<li><p>Create a new project</p></li>
-<li><p>Choose Existing Directory</p></li>
-<li><p>browse to your local repo folder (/website, if you follow my example)</p></li>
+<li><p>An R script is a plain text file</p></li>
+<li><p>Ends in “dot R” (.R) by default</p></li>
+<li><p>Interface between your commands and R software</p></li>
+<li><p>Documents your analysis</p></li>
+<li><p>Interface between your commands and R software</p></li>
+<li><p>Organized and logical, has meaning for other people</p></li>
 </ul>
-<p><img src="img/20221005-proj.png" class="img-fluid"></p>
-<hr>
 </section>
-<section id="create-quarto-website-template" class="level3">
-<h3 class="anchored" data-anchor-id="create-quarto-website-template">2.2 Create Quarto website template</h3>
-<p>Now in the RStudio <strong>Terminal tab</strong> (the Terminal tab, not the Console tab…), type:</p>
-<blockquote class="blockquote">
-<p>Terminal</p>
-</blockquote>
-<pre><code>quarto create-project --type website</code></pre>
-<p><strong>Terminal output:</strong></p>
-<p><img src="img/20221005-terminal.png" class="img-fluid"></p>
-<p><strong>Files output:</strong></p>
-<p><img src="img/20221005-terminal2.png" class="img-fluid"></p>
+<section id="workflow-for-r-scripts-1" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-for-r-scripts-1">Workflow for R scripts</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="pics/Fisher.jfif" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<pre><code>Your R script should be good enough to show a friend (like a supervisor, or even your future self), a friend you respect.</code></pre>
+</div>
+</div>
 </section>
+<section id="r-script-organisation" class="level2">
+<h2 class="anchored" data-anchor-id="r-script-organisation">R script organisation</h2>
+<p><img src="pics/header.png" class="img-fluid"></p>
 </section>
-<section id="basic-quarto-editing" class="level2">
-<h2 class="anchored" data-anchor-id="basic-quarto-editing">3 Basic quarto editing</h2>
-<p>We are going to set up the most basic quarto website that has <strong>two Sections, each with one webpage</strong>.</p>
-<section id="quarto.yaml" class="level3">
-<h3 class="anchored" data-anchor-id="quarto.yaml">3.1 <code>_quarto.yaml</code></h3>
-<p><strong>YAML</strong> stands for “YAML Ain’t Markdown Language”</p>
-<p><strong>Markdown</strong> is a language designed to easily format plain text into modern HTML, which can get complicated</p>
-<p><strong>HTML</strong> is HyperText Markup Language, which formats web content documents</p>
-<p>Your <code>_quarto.yaml</code> file allows you to control formatting on your website in a very terse way. There are many options, but they are easy to use and the documentation is very good (see Resources below).</p>
-<p>Basically we are going to:</p>
+<section id="r-script-organisation-1" class="level2">
+<h2 class="anchored" data-anchor-id="r-script-organisation-1">R script organisation</h2>
+<p><img src="pics/contents.png" class="img-fluid"></p>
+</section>
+<section id="r-script-organisation-2" class="level2">
+<h2 class="anchored" data-anchor-id="r-script-organisation-2">R script organisation</h2>
+<pre><code># 01 First line of a CODE CHUNK ####</code></pre>
 <ul>
-<li><p>make a website type document</p></li>
-<li><p>set the output directory for html</p></li>
-<li><p>make sidebar navigation</p></li>
-<li><p>set the theme for our website</p></li>
-<li><p>enable the “visual” editor in RStudio (slightly buggy but useful)</p></li>
+<li><p>Code chunks start with a hash sign <code>#</code></p></li>
+<li><p>Title descriptive of contents</p></li>
+<li><p>End with (at least) four hash signs <code>####</code></p></li>
+<li><p>Numbered titles optional</p></li>
+<li><p>Visual + navigation function</p></li>
 </ul>
-<p>3.1 Default YAML</p>
-<p>Open your _quarto.yaml file in the RStudio editor.</p>
-<pre class="{yaml}"><code>project:
-  type: website
+</section>
+<section id="r-script-comments" class="level2">
+<h2 class="anchored" data-anchor-id="r-script-comments">R script comments</h2>
+<pre><code># Vector of numbers &lt;&lt; a comment
+my_variable &lt;- c(2,5,3,6,3,4,7)
 
-website:
-  title: "website"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+# Calculate the mean &lt;&lt; another comment
+mean(my_variable)
 </code></pre>
+<p>Comments explain your code</p>
 </section>
+<section id="r-script-submitting-commands" class="level2">
+<h2 class="anchored" data-anchor-id="r-script-submitting-commands">R script “submitting” commands</h2>
+<ul>
+<li><p>Run whole line of code your cursor rests on Ctrl+Enter (<code>Cmd+Return</code> in Macs)</p></li>
+<li><p>Run code you have selected <code>Ctrl+Enter</code> (<code>Cmd+Return</code> in Macs)</p></li>
+<li><p>Use the “Run” menu above the Script window</p></li>
+<li><p>Use the Code &gt; Run dropdown menu</p></li>
+</ul>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p><a href="https://quarto.org/">Quarto website</a></p>
-<p><a href="https://quarto.org/docs/guide/">OFFICIAL documentation (excellent)</a></p>
-<p><a href="https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/">Good blog post about setting a quarto website up</a></p>
-<p><br><br></p>
-<p>This group is supported by the research and teaching community at <a href="https://www.harper-adams.ac.uk/" title="Harper Adams University">Harper Adams University</a> and by students and alumnists of the <a href="https://www.harper-adams.ac.uk/courses/postgraduate/201194/data-science-for-global-agriculture-food-and-environment" title="MSc in Data Science">MSc in Data Science for Global Agriculture, Food, and Environment</a>, and is led by <a href="https://www.harper-adams.ac.uk/general/staff/profile/201620/Edwin-Harris/" title="Ed's Faculty page">Ed Harris</a>.</p>
+<section id="practice-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
+<p><img src="pics/Laptop_duck.webp" class="img-fluid"></p>
 
 
 </section>

@@ -57,7 +57,8 @@
     "Winter_Holiday_Agricultural_Analysis.html": "b20d3b1c"
   },
   "files/2024-01-17-RSB/RSB01.qmd": {
-    "RSB01.pptx": "10301c3e"
+    "RSB01.pptx": "10301c3e",
+    "RSB01.html": "0de8274c"
   },
   "pages/2024-01-24-RSB02/RSB02.qmd": {
     "RSB02.pptx": "74e46299",
@@ -78,5 +79,12 @@
   "pages/2024-03-13-RSB07/RSB07.qmd": {
     "RSB07.pptx": "a8c052f6",
     "RSB07.html": "fe36f5d9"
+  },
+  "pages/2024-03-13-RSB08/RSB08.qmd": {
+    "RSB08.pptx": "632c59b4",
+    "RSB08.html": "7de9fff4"
+  },
+  "pages/2024-03-20-RSB08/RSB08.qmd": {
+    "RSB08.pptx": "dc25c8e7"
   }
 }

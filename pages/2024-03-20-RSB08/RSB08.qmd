@@ -1,0 +1,145 @@
+---
+title: "R Stats Bootcamp 08"
+subtitle: "Distributions"
+format: pptx
+reference-doc: template.pptx
+author: Ed Harris / Megan Lewis
+date: 2023-03-20
+date-format: iso
+center: true
+---
+
+##  {background-image="pics/Bootcamp_2024.png"}
+
+## R Stats Bootcamp {.center}
+
+::: columns
+::: {.column width="50%"}
+![](pics/unsplash-bull.png)
+:::
+
+::: {.column width="50%"}
+[R Stats Bootcamp 08](https://rstats-bootcamp.github.io/website/8-sampling-dist.html)
+
+<br>
+
+Distributions
+
+`Can you guess the weight of this bull? What about you and 99 friends?”.`
+
+<br>
+:::
+:::
+
+## Objectives
+
+-   Use of the histogram
+
+-   Gaussian: that ain’t normal!
+
+-   Poisson distribution
+
+-   Binomial distribution
+
+-   Diagnosing the distribution
+
+## Use of the histogram
+
+-   Plots a numeric variable on the x axis
+
+-   Frequency of observations on the y axis
+
+## Typical histogram for continuous variable
+
+
+![](pics/histogram_cats.png)
+
+**Let's go coding!**
+
+
+## Sampling and Populations
+
+Remember the concept of population versus sample?
+
+-   Population of 10,000 cats versus a sample of 100 cats
+
+-   Expected variation in random sample means?   
+
+
+
+**Coding examples!**
+
+## Gaussian: That ain’t necessarily normal!
+
+-   Classic “Bell curve” shaped distribution
+
+-   Continuous numeric variables that “measure” things (e.g., human height)
+
+## The Gaussian assumption (important topic)
+
+-   Regression and ANOVA
+
+-   Gaussian is described by 2 quantities: the **mean** and the **variance**
+
+## Gaussian histograms
+
+![](pics/gaussian_fun.png)
+
+
+**Back to R!**
+
+## Quartile-Quartile (Q-Q) plots
+
+-   Might want a peek or even more formally test whether data are Gaussian
+
+-   I.e., Do the residuals of a linear model adhere to the assumption of a Gaussian distribution?
+
+-   Q-Q plots are a common diagnostic plot
+
+**To R for some examples**
+
+## Poisson distribution
+
+-   Count data of discrete events, objects, etc.
+
+-   Integers, for example the number of beetles caught each day in a pitfall trap
+
+-   Poisson data are typically skewed to the right
+
+-   Described by a single parameter, (lambda), which describes the mean and the variance
+
+## Off to R!
+
+-   Example Poisson data
+
+-   Density plot for different Poisson lambda values
+
+## Binomial distribution
+
+-   Exactly 2 outcomes: 0 and 1, Yes and No, True and False, etc.
+
+-   Data are the count of “successes”” in (binary) outcomes of a series of independent events
+
+-   Data coding can be variable
+
+## Let's do some coding!
+
+-   Example: Nest boxes
+
+-   Example: Flipping a coin
+
+-   Density plot for different Binomial parameters
+
+## Diagnosing the distribution
+
+**Good practice** - a set of steps to adhere to when diagnosing a distribution.
+
+1.  Develop an expectation of the distribution, based on the type of data
+
+2.  Graph the data i.e., histograms and q-q plots
+
+3.  Compare q-q plots with different distributions for comparison if in doubt
+
+## Practice Exercises
+
+<center>![](pics/laptop_dog.png)</center>
